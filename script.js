@@ -10,7 +10,7 @@ function calculateAge() {
     if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDate.getDate())) {
         age--;
     }
-}
 
 // Display the result
 document.getElementById('result').innerText = `You are ${age} years old.`;
+}
